@@ -156,10 +156,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerAdapter.I
             getSupportActionBar().setTitle("RTR");
         }
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings)
-        {
-            return true;
-        }
+        
         if (id==R.id.checkable_menu) {
             isChecked = !item.isChecked();
             item.setChecked(isChecked);
@@ -191,13 +188,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerAdapter.I
         }
 
 
-        if (id == R.id.action_help)
-        {
-            fragmentManager = getSupportFragmentManager();
-            transaction = fragmentManager.beginTransaction();
-            fragment = new TitleFragment();
-            transaction.replace(R.id.frame, fragment, "TitleFragment").commit();
-        }
+       
 
 
         return super.onOptionsItemSelected(item);
