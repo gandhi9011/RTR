@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">RTR</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="action_contactus">ContactUs</string>
+    <string name="action_aboutus">AboutUs</string>
+    <string name="action_search">Search</string>
+    <string name="action_home">Home</string>
+    <string name="type_to_search">Type to Search</string>
+    <string name="start">START</string>
+    <string name="end">END</string>
+    <string name="threshold">Thresholds</string>
+    <string name="submit">SUBMIT</string>
+    <string name="service_level">SERVICE LEVEL</string>
+    <string name="toggle_service">Notification</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="broadconnect">BroadConnect</string>
+
+    <string-array name="fields_array">
+        <item> Inbound Calls</item>
+        <item>Inbound Answered</item>
+        <item>Overflowed Calls</item>
+        <item>Inbound Abandoned</item>
+        <item>In Available</item>
+        <item>Unavailable</item>
+        <item>Busy</item>
+        <item>Calls In Queue</item>
+        <item>Wrap-Up</item>
+        <item>Sign-In</item>
+        <item>Average Answers</item>
+        <item>Total Talk</item>
+        <item>Average Talk</item>
+        <item>Average Abandoned</item>
+        <item>Outbound Calls</item>
+        <item>Outbound Answered Calls</item>
+        <item>Maximum Wait Time</item>
+        <item>Average Wait Time</item>
+        <item>Service Handled</item>
+
+    </string-array>
+    <string-array name="time_array">
+        <item>Today</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Real-Time</item>
+    </string-array>
+
+
+</resources>

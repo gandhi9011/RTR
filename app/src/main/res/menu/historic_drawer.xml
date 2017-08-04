@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Filters"
+        >
+    <menu>
+
+    <item
+
+            android:checked="false"
+            android:id="@+id/historic_navigation_drawer_intin"
+            android:icon="@drawable/intenal_incoming"
+            android:checkable="true"
+            app:actionLayout="@layout/filter_checkbox"
+            android:title="INT-IN" />
+        <item
+            android:checked="false"
+            android:id="@+id/historic_navigation_drawer_intout"
+            android:icon="@drawable/internal_outgoing"
+            android:checkable="true"
+            app:actionLayout="@layout/filter_checkbox"
+            android:title="INT-OUT" />
+        <item
+            android:checked="false"
+            android:id="@+id/historic_navigation_drawer_intabn"
+            android:icon="@drawable/internal_missed_call"
+            android:checkable="true"
+            app:actionLayout="@layout/filter_checkbox"
+            android:title="INT-ABN" />
+        <item
+            android:checked="false"
+            android:id="@+id/historic_navigation_drawer_in"
+            android:icon="@drawable/incoming"
+            android:checkable="true"
+            app:actionLayout="@layout/filter_checkbox"
+            android:title="IN" />
+        <item
+            android:id="@+id/historic_navigation_drawer_out"
+            android:icon="@drawable/outgoing"
+            android:checkable="true"
+            app:actionLayout="@layout/filter_checkbox"
+            android:title="OUT" />
+        <item
+            android:id="@+id/historic_navigation_drawer_anb"
+            android:icon="@drawable/missedcall"
+            android:checkable="true"
+            app:actionLayout="@layout/filter_checkbox"
+            android:title="ABN" />
+        <item
+            android:id="@+id/historic_navigation_drawer_vm"
+            android:icon="@drawable/voicemail"
+            android:checkable="true"
+            app:actionLayout="@layout/filter_checkbox"
+            android:title="VM"
+            />
+   </menu>
+    </item>
+
+</menu>

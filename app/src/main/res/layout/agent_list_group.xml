@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="20dp"
+    android:background="#d1d1d1"
+    android:orientation="horizontal"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilecircleImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/aggg" />
+
+    <TextView
+        android:id="@+id/agent_name"
+        android:layout_width="179dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="6dp"
+        android:foregroundGravity="center_vertical|center"
+        android:textSize="15dp" />
+
+
+    <ImageView
+        android:id="@+id/agent_dndstatus"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center_vertical|center"
+        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+         />
+
+
+</LinearLayout>
